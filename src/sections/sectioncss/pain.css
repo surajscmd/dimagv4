@@ -1,0 +1,199 @@
+/* ==================== GENERAL PAIN SECTION ==================== */
+.pain-section {
+  width: 100%;
+  min-height: 100dvh;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  gap: 4rem;
+}
+
+/* ==================== HEADER ==================== */
+.pain-header {
+  text-align: center;
+}
+
+.pain-title {
+  font-weight: 700;
+  font-size: 92px;
+  line-height: 108px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #FF0081 0%, #79C5EC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ==================== ROWS ==================== */
+.row-one,
+.row-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+}
+
+.row-two {
+  flex-direction: row-reverse;
+  margin-top: 2rem;
+}
+
+/* ==================== CARD 1 & 3 ==================== */
+.pain-card {
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.pain-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.pain-image {
+  width: 15rem;
+  height: 13rem;
+  object-fit: cover;
+}
+
+.pain-text-wrapper {
+  width: 20rem;
+  height: 13rem;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.pain-text {
+  font-size: 1.7rem;
+  text-align: left;
+  padding: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* ==================== CARD 2 & 4 ==================== */
+.pain-card-two {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+}
+
+.pain-card-two:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.pain-image-two {
+  width: 20rem;
+  height: 6.5rem;
+  object-fit: cover;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.pain-text-wrapper-second {
+  width: 20rem;
+  height: 6.5rem;
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.pain-text-second {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* ==================== BACKGROUND COLORS ==================== */
+.bg-pink {
+  background-color: #ffe0e9;
+}
+
+.bg-blue {
+  background-color: #e0f0ff;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+  .pain-title {
+    font-size: 72px;
+    line-height: 84px;
+  }
+
+  .pain-image-two {
+    width: 16rem;
+    height: 5rem;
+  }
+
+  .pain-text-wrapper-second {
+    width: 16rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .row-one,
+  .row-two {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .row-two {
+    flex-direction: column;
+  }
+
+  .pain-card,
+  .pain-card-two {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .pain-image {
+    width: 100%;
+    max-width: 11rem;
+    height: auto;
+  }
+
+  .pain-image-two {
+    width: 100%;
+    max-width: 18rem;
+    height: auto;
+  }
+
+  .pain-text-wrapper,
+  .pain-text-wrapper-second {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pain-title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
