@@ -1,0 +1,115 @@
+/* choice-feature-section */
+/* ================== Choice Container ================== */
+.choice-continer {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4rem 0rem;
+  background: linear-gradient(180deg, #000000 0%, #2c2c2c 100%);
+}
+.width-choice{
+    width: 90%;
+    max-width: 1000px;
+}
+.business-section{
+    height: max-content;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem auto;
+    border-radius: 2rem;
+    background-color: white;
+}
+.business-title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+.business-card {
+  background-color: white;
+  padding: 0.6rem 2rem;
+  border-radius: 2rem;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.business-card.active {
+  background-color: rgb(255, 0, 129);
+  color: white;
+}
+
+
+
+
+/* ================== Feature Section ================== */
+.choice-feature-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 2rem;
+  width: 90%;
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.choice-feature-card {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* top-align content */
+  justify-content: flex-start; /* stick content to top */
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.feature-image-wrapper {
+  width: 100%;
+}
+
+.feature-image {
+  width: 100%;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.feature-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.7rem;
+  padding: 1.5rem 2.6rem 3rem;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.feature-description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.feature-upgrade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+}
+
+.upgrade-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}

@@ -27,7 +27,7 @@ const Pain = () => {
             />
             <div className="pain-text-wrapper-second bg-pink">
               <p className="pain-text-second">
-                Your Ad budget is Burning, Not Earning
+                You're Invisible Where It Matters Most
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Pain = () => {
             <img src="/thirdimage.png" alt="Ad issue" className="pain-image" />
             <div className="pain-text-wrapper">
               <p className="pain-text">
-                Your Ad budget is Burning, Not Earning
+                Your Website is Hurting More Than It's Helping
               </p>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Pain = () => {
             />
             <div className="pain-text-wrapper-second bg-blue">
               <p className="pain-text-second">
-                Your Ad budget is Burning, Not Earning
+                Your Social Media is a Ghost Town
               </p>
             </div>
           </div>
