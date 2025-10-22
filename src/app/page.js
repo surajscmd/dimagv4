@@ -3,6 +3,7 @@ import Choice from "@/sections/Choice";
 import Client from "@/sections/Client";
 import Hero from "@/sections/Hero";
 import Pain from "@/sections/Pain";
+import Work from "@/sections/Work";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
        <Pain/>
        <Choice/>
        <Client/>
+       <Work/>
     </div>
   );
 }

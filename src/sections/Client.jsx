@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import "./sectioncss/client.css";
 
@@ -61,7 +62,6 @@ const Client = () => {
                 className="client-image-vertical"
               />
             </div>
-
             {/* Text Section */}
             <div className="client-text-wrapper-vertical">
               <h2 className="client-feature-title">Complete Brand Kit</h2>
